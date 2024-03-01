@@ -93,10 +93,11 @@ void click_to_fill_bar() {
 
 int main() {
     
+    while (true) {
+        fish();
 
-    fish();
+        sleep(500);
 
-    sleep(500);
-
-    click_to_fill_bar();
+        click_to_fill_bar();
+    }
 }
