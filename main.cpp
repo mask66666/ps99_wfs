@@ -94,6 +94,7 @@ void click_to_fill_bar() {
 int main() {
     
     while (true) {
+        sleep(500);
         fish();
 
         sleep(500);
