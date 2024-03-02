@@ -100,4 +100,6 @@ int main() {
 
         click_to_fill_bar();
     }
+
+    return 0;
 }
